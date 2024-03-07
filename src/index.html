@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello Rigo with Vanilla.js</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid text-center ">
+      <div class="card ">
+        <span class="top-suit">♥</span>
+        <span class="num">7</span>
+        <span class="bot-suit">♥</span>
+      </div>
+      <div class="button"><button>Click here for new card!</button></div>
+      <div class="inputs">
+        <div class="card-width">
+          <label for="card-width">Width:</label>
+          <input type="number" name="card-width" id="card-width" value="" />
+        </div>
+        <div class="card-height">
+          <label for="card-height">Height:</label>
+          <input type="number" name="card-height" id="card-height" value="" />
+        </div>
+        <input
+          type="submit"
+          value="Submit"
+          id="bntSubmit"
+          onclick="changeSize()"
+        />
+      </div>
+    </div>
+  </body>
+</html>
